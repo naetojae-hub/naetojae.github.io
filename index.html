@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naetoja Ebere Ezerioha — Data Analyst Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <span class="nav-mark">Naetoja Ebere Ezerioha</span>
+  <div class="nav-links">
+    <a href="about.html">about</a>
+    <a href="#work">work</a>
+    <a href="#skills">skills</a>
+    <a href="#contact">contact</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <span class="hero-eyebrow">Aspiring Data Analyst</span>
+  <h1 class="hero-title">Data Analyst Portfolio</h1>
+  <div class="hero-inner">
+    <div class="terminal" aria-hidden="false">
+      <div class="terminal-bar">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        <span class="terminal-title">query.sql</span>
+      </div>
+      <div class="terminal-body">
+        <p class="line comment">-- initializing profile</p>
+        <p class="line"><span id="typed-query"></span><span class="cursor">|</span></p>
+        <div id="query-output" class="output"></div>
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap">
+      <img src="assets/profile.png" alt="Portrait of Naetoja Ebere Ezerioha" class="hero-photo">
+      <span class="photo-tag">SELECT * FROM analysts LIMIT 1;</span>
+    </div>
+  </div>
+
+  <p class="tagline">Transforming data into meaningful insights with Excel, SQL, Power BI, and Python.</p>
+  <a href="#welcome" class="scroll-cue">scroll to explore ↓</a>
+</header>
+
+<main>
+  <section id="welcome" class="section welcome-section">
+    <div class="section-head">
+      <span class="eyebrow">// 00 — welcome</span>
+      <h2>Welcome</h2>
+    </div>
+    <div class="welcome-text">
+      <p>Hello! I'm Naetoja Ebere Ezerioha, an aspiring Data Analyst passionate about transforming raw data into actionable insights.</p>
+      <p>I have practical experience using Microsoft Excel, SQL, Power BI, and Python to clean, analyze, and visualize data. I enjoy solving problems through data-driven decision-making and continuously expanding my analytical skills.</p>
+      <p>This portfolio showcases my projects, technical skills, education, and professional journey as I work toward building a successful career in data analytics.</p>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <div class="section-head">
+      <span class="eyebrow">// 01 — selected work</span>
+      <h2>Projects</h2>
+      <p class="section-note">Sample entries below — replace with your real class projects, dashboards, or case studies.</p>
+    </div>
+
+    <div class="project-grid">
+      <article class="project-card">
+        <div class="card-top">
+          <span class="tool-chip">Power BI</span>
+          <span class="row-count">1,240 rows analyzed</span>
+        </div>
+        <h3>Retail Sales Dashboard</h3>
+        <p>Built an interactive dashboard tracking revenue, regional performance, and seasonal trends for a sample retail dataset. Replace this with your actual project summary.</p>
+        <a href="#" class="card-link">View project →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="card-top">
+          <span class="tool-chip">SQL</span>
+          <span class="row-count">40+ queries written</span>
+        </div>
+        <h3>Customer Churn Analysis</h3>
+        <p>Wrote queries to segment customers by behavior and flag churn risk, then summarized findings for stakeholders. Replace this with your actual project summary.</p>
+        <a href="#" class="card-link">View project →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="card-top">
+          <span class="tool-chip">Excel</span>
+          <span class="row-count">6 pivot models</span>
+        </div>
+        <h3>Budget Forecasting Model</h3>
+        <p>Modeled monthly budget scenarios using pivot tables and what-if analysis to support planning decisions. Replace this with your actual project summary.</p>
+        <a href="#" class="card-link">View project →</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills" class="section skills-section">
+    <div class="section-head">
+      <span class="eyebrow">// 02 — toolkit</span>
+      <h2>Skills</h2>
+    </div>
+    <div class="skills-panel">
+      <div class="skill-row">
+        <span class="skill-name">SQL</span>
+        <div class="skill-bar"><div class="skill-fill" style="--level:85%"></div></div>
+      </div>
+      <div class="skill-row">
+        <span class="skill-name">Excel</span>
+        <div class="skill-bar"><div class="skill-fill" style="--level:90%"></div></div>
+      </div>
+      <div class="skill-row">
+        <span class="skill-name">Power BI</span>
+        <div class="skill-bar"><div class="skill-fill" style="--level:80%"></div></div>
+      </div>
+      <div class="skill-row">
+        <span class="skill-name">Python</span>
+        <div class="skill-bar"><div class="skill-fill" style="--level:75%"></div></div>
+      </div>
+    </div>
+    <p class="section-note">Levels are placeholders — adjust the bars in index.html to match your actual comfort with each tool.</p>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <div class="section-head">
+      <span class="eyebrow">// 03 — get in touch</span>
+      <h2>Contact</h2>
+    </div>
+    <div class="contact-grid">
+      <a href="mailto:naetojae@gmail.com" class="contact-card">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">naetojae@gmail.com</span>
+      </a>
+      <a href="https://www.linkedin.com/in/naetoja-ezerioha-b22877422" class="contact-card">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">linkedin.com/in/naetoja-ezerioha</span>
+      </a>
+      <a href="https://github.com/naetojae-hub" class="contact-card">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">github.com/naetojae-hub</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>Naetoja Ebere Ezerioha — built for a data analysis class portfolio.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
